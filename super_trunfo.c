@@ -1,12 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-// Nível novato
-
 int main()
 {
     //Declaracao das variaveis para primeira carta
@@ -124,9 +118,8 @@ int main()
 
 
     printf("\nSelecione qual atributo comparar e digite o valor: \n");
-    printf("\n1 - Nome do país ");
     printf("\n1 - População");
-    printf("\n2 - Área");
+    printf("\n2 - Área m²");
     printf("\n3 - PIB");
     printf("\n4 - Número de pontos turísticos");
     printf("\n5 - Densidade demográfica\n");
@@ -172,8 +165,8 @@ int main()
             printf("\n Carta 2 (%s) venceu", pais_carta_2);
         }
     } else if (switch_comparacao == 2) {
-        printf("\n Atributo usado na comparacao: Área");
-        printf("\n Carta 1: %f - Carta 2: %f", area_carta_1, area_carta_2);
+        printf("\n Atributo usado na comparacao: Área m²");
+        printf("\n Carta 1: %2.f - Carta 2: %2.f", area_carta_1, area_carta_2);
         if(area_carta_1 == area_carta_2){
             printf("\n Resultado: Empate!");
         } else if( area_carta_1 > area_carta_2 ){
@@ -183,7 +176,7 @@ int main()
         }
     } else if (switch_comparacao == 3) {
         printf("\n Atributo usado na comparacao: PIB");
-        printf("\n Carta 1: %f - Carta 2: %f", pib_carta_1, pib_carta_2);
+        printf("\n Carta 1: %2.f - Carta 2: %2.f", pib_carta_1, pib_carta_2);
         if(pib_carta_1 == pib_carta_2){
             printf("\n Resultado: Empate!");
         } else if( pib_carta_1 > pib_carta_2 ){
@@ -203,7 +196,7 @@ int main()
         }
     }  else if (switch_comparacao == 5) {
        printf("\n Atributo usado na comparacao: Densidade demográfica");
-       printf("\n Carta 1: %f - Carta 2: %f", densidade_populacional_1, densidade_populacional_2);
+       printf("\n Carta 1: %2.f - Carta 2: %2.f", densidade_populacional_1, densidade_populacional_2);
        if(densidade_populacional_1 == densidade_populacional_2){
            printf("\n Resultado: Empate!");
        } else if( densidade_populacional_1 < densidade_populacional_2 ){
