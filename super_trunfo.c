@@ -112,26 +112,16 @@ int main()
 
     printf("\n--- Comparação das Cartas ---\n");
 
-    // População (maior é melhor)
-    printf("População: %d\n", populacao_carta_1 > populacao_carta_2);
+    printf("Carta 1 - %s (%s): %lu \n", cidade_carta_1, codigo_carta_1, populacao_carta_1 );
+    printf("Carta 2 - %s (%s): %lu \n", cidade_carta_2, codigo_carta_2, populacao_carta_2 );
 
-    // Área (maior é melhor)
-    printf("Área: %d\n", area_carta_1 > area_carta_2);
 
-    // PIB (maior é melhor)
-    printf("PIB: %d\n", pib_carta_1 > pib_carta_2);
-
-    // Pontos turísticos (maior é melhor)
-    printf("Pontos Turísticos: %d\n", pontos_turisticos_carta_1 > pontos_turisticos_carta_2);
-
-    // Densidade populacional (menor é melhor)
-    printf("Densidade Populacional: %d\n", densidade_populacional_1 < densidade_populacional_2);
-
-    // PIB per capita (maior é melhor)
-    printf("PIB per Capita: %d\n", pib_per_capita_1 > pib_per_capita_2);
-
-    // Super Poder (maior é melhor)
-    printf("Super Poder: %d\n", super_poder_1 > super_poder_2);
+    //Aqui fazemos a comparação de qual carta tem a maior população
+    if(populacao_carta_1 > populacao_carta_2){
+        printf("\n Carta 1 %s venceu!", cidade_carta_1);
+    } else {
+        printf("Carta 2 %s venceu!", cidade_carta_2);
+    }
 
 
     return 0;
