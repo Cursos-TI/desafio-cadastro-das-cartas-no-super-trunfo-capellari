@@ -1,0 +1,41 @@
+@capellari ➜ /workspaces/desafio-cadastro-das-cartas-no-super-trunfo-capellari (main) $ ./super_trunfo 
+Preencha os dados da Carta 1:
+Digite o estado: 
+SP
+Digite o codigo (ex: A01, B03): 
+A01
+Digite o nome da cidade: 
+São Paulo
+Digite a populacao: 
+10000
+Digite a area: 
+50000
+Digite o PIB: 
+10000
+Digite o numero de pontos turisticos: 
+50
+
+Preencha os dados da Carta 2:
+Digite o estado: 
+RJ
+Digite o codigo (ex: A01, B03): 
+B02
+Digite o nome da cidade: 
+Rio de Janeiro
+Digite a populacao: 
+20000
+Digite a area: 
+60000
+Digite o PIB: 
+15000
+Digite o numero de pontos turisticos: 
+10
+
+--- Comparação das Cartas ---
+População: 0
+Área: 0
+PIB: 0
+Pontos Turísticos: 1
+Densidade Populacional: 1
+PIB per Capita: 1
+Super Poder: 0
