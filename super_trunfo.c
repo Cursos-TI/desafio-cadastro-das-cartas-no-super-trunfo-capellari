@@ -56,7 +56,7 @@ int main()
     printf("Digite a populacao: \n");
     scanf("%lu", &populacao_carta_1);
 
-    printf("Digite a area: \n");
+    printf("Digite a area m²: \n");
     scanf("%f", &area_carta_1);
 
     printf("Digite o PIB: \n");
@@ -96,7 +96,7 @@ int main()
     printf("Digite a populacao: \n");
     scanf("%lu", &populacao_carta_2);
 
-    printf("Digite a area: \n");
+    printf("Digite a area m²: \n");
     scanf("%f", &area_carta_2);
 
     printf("Digite o PIB: \n");
